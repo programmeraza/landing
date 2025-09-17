@@ -1,0 +1,25 @@
+
+
+.us {
+    background-color: #fff;
+    padding: 171px 0 160px 0;
+}
+
+.us__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    h1 {
+        font-size: 48px;
+        color: #232323;
+    }
+}
+
+.us__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

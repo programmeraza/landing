@@ -1,0 +1,29 @@
+.price {
+    padding: 73px 0 57px 0;
+    border-radius: 40px;
+    background: #FFE6CB;
+    background: linear-gradient(270deg, rgba(255, 230, 203, 1) 0%, rgba(200, 216, 255, 1) 100%);
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    &__btn {
+        width: max-content;
+        padding: 16px 42px;
+        background-color: #FE5C06;
+        color: #fff;
+        border: 1px solid #FE5C06;
+        border-radius: 30px;
+        font-size: 18px;
+        transition: all .5s;
+        &:hover {
+            background-color: transparent;
+            color: #FE5C06;
+        }
+    }
+}

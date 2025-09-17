@@ -1,0 +1,61 @@
+.hero {
+    background: #FFB188;
+    background: linear-gradient(0deg, rgba(255, 177, 136, 1) 0%, rgba(228, 255, 240, 1) 100%);
+    padding: 184px 0 0 0;
+}
+
+.hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+    h1 {
+        font-size: 64px;
+        color: #232323;
+    }
+
+    p {
+        font-size: 16px;
+        color: #232323;
+    }
+}
+
+.hero__sale {
+    width: max-content;
+    padding: 9px 24px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        font-size: 14px;
+        color: #000;
+    }
+}
+
+.hero__btn {
+    width: max-content;
+    padding: 16px 26px;
+    border: 1px solid #FE5C06;
+    border-radius: 30px;
+    background-color: #FE5C06;
+    color: #fff;
+    font-size: 18px;
+    transition: all .5s;
+    &:hover {
+        background-color: transparent;
+        color: #FE5C06;
+    }
+}
