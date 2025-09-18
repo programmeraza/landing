@@ -4,7 +4,6 @@
 
     &__container {
         overflow: visible;
-        margin-left: 280px;
     }
 
     &__wrapper {
@@ -40,6 +39,7 @@
     &__img-overflow {
         width: 100%;
         overflow-x: auto;
+        margin-left: 280px;
     }
 
     &__img {
